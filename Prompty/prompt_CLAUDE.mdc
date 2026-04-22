@@ -1,0 +1,11 @@
+Przeanalizuj ten codebase i utwórz plik CLAUDE.md zgodnie z tymi zasadami:
+1. Zachowaj maksymalnie 150 linii łącznie, skupiając się tylko na informacjach, które mają zastosowanie ogólne
+2. Uwzględnij najważniejsze rzeczy: CO, czyli stack technologiczny i strukturę projektu, DLACZEGO, czyli cel projektu, oraz JAK, czyli komendy do budowania i testowania
+3. Zastosuj Progressive Disclosure: zamiast umieszczać wszystkie instrukcje w środku, stwórz krótki indeks odsyłający do innych plików markdown w .claude/docs/ dla bardziej specjalistycznych tematów
+4. Dodawaj odwołania plik:linia zamiast fragmentów kodu
+5. Załóż, że będę używać linterów do stylu kodu, więc nie dodawaj wytycznych dotyczących formatowania
+Ułóż to w takiej strukturze: przegląd projektu, stack technologiczny, kluczowe katalogi i ich przeznaczenie, najważniejsze komendy do budowania i testowania oraz lista dodatkowych plików dokumentacji, które Claude powinien sprawdzać, kiedy będzie to potrzebne. 
+Dodatkowo wyodrębnij zauważone wzorce do osobnych plików:
+.claude/docs/architectural_patterns.md — udokumentuj wzorce architektoniczne, decyzje projektowe i konwencje stosowane w projekcie, na przykład dependency injection, zarządzanie stanem, wzorce projektowania API. Upewnij się, że są to wzorce, które pojawiają się w wielu plikach.
+Odwołaj się do tych plików w sekcji Additional Documentation w pliku CLAUDE.md.
+CLAUDE.md must be written in english

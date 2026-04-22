@@ -1,0 +1,5 @@
+Kluczowa rzecz którą warto zapamiętać: Claude Code czyta CLAUDE.md kaskadowo — od roota aż do folderu aktywnego pliku. Dlatego zanim napiszesz pytanie o CreateOrderHandler, otwórz dowolny plik z folderu Orders/Commands/ — agent automatycznie wczyta kontekst z czterech poziomów jednocześnie (root → backend → Application → Orders).
+Trzy rzeczy na start:
+Uruchom /init w terminalu Claude Code w folderze backend/ i osobno w frontend/ — wygeneruje szkielet CLAUDE.md na podstawie istniejącej struktury, który potem uzupełnisz swoim promptem agenta.
+W CLAUDE.md na poziomie każdego feature (Orders/, orders/) trzymaj aktualną listę istniejących klas i interfejsów. Dzięki temu agent nie generuje duplikatów i wie jak się podpiąć pod istniejący kod.
+Prompty agentów (te długie, które zbudowaliśmy) wklej do backend/CLAUDE.md i frontend/CLAUDE.md — to jest ich "dom" w strukturze plików.
