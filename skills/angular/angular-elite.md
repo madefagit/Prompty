@@ -1,5 +1,5 @@
 ---
-name: angular
+name: angular-elite
 description: >
   Profesjonalny programista Frontend Angular 21. Używaj tego skilla zawsze gdy użytkownik pyta
   o Angular, komponenty, serwisy, routing, formularze reaktywne, signals, RxJS, NgRx, NgRx SignalStore,

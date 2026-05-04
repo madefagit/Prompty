@@ -1,0 +1,38 @@
+project-root/
+│── .claude/
+│   ├── settings.json
+│   ├── CLAUDE.md
+│   │
+│   ├── skills/
+│   │   ├── freightapp-enterprise.md
+│   │   ├── angular-elite.md
+│   │   ├── dotnet-api-pro.md
+│   │   ├── sqlserver-pro.md
+│   │   ├── docker-devops.md
+│   │   └── ui-premium.md
+│   │
+│   ├── prompts/
+│   │   ├── feature.md
+│   │   ├── fix-bug.md
+│   │   ├── refactor.md
+│   │   ├── review.md
+│   │   └── redesign-ui.md
+│   │
+│   ├── context/
+│   │   ├── project-overview.md
+│   │   ├── architecture.md
+│   │   ├── business-rules.md
+│   │   ├── coding-standards.md
+│   │   └── deployment.md
+│   │
+│   └── templates/
+│       ├── angular-component.md
+│       ├── api-endpoint.md
+│       ├── sql-table.md
+│       ├── docker-service.md
+│       └── test-case.md
+│
+├── frontend/
+├── backend/
+├── docker-compose.yml
+└── README.md
